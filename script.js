@@ -32,4 +32,25 @@ window.onload = function () {
 
     container.appendChild(criaImg);
   }
+
+  //! Requisito 6
+  const container = document.querySelector('#meme-image-container');
+
+  let botaoFire = document.querySelector('#fire');
+  botaoFire.addEventListener('click', bordarFire);
+  function bordarFire() {
+    container.style.border = '3px dashed red';
+  }
+
+  let botaoWater = document.querySelector('#water');
+  botaoWater.addEventListener('click', bordaWater);
+  function bordaWater() {
+    container.style.border = '5px double blue';
+  }
+
+  let botaoEarth = document.querySelector('#earth');
+  botaoEarth.addEventListener('click', bordaEarth);
+  function bordaEarth() {
+    container.style.border = '6px groove green';
+  }
 };

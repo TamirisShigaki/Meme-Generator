@@ -1,4 +1,8 @@
+body {
+  text-align: center;
+}
 #meme-image-container {
+  margin: auto;
   position: relative;
   background-color: white;
   border: 1px solid black;
@@ -18,4 +22,28 @@
   text-shadow: 5px 5px 5px black;
   font-size: 30px;
   color: white;
+}
+#botoes button {
+  margin: 10px;
+}
+
+#fire {
+  background-color: red;
+  border: 3px dashed;
+  width: 60px;
+  height: 40px;
+}
+
+#water {
+  background-color: blue;
+  border: 5px double;
+  width: 60px;
+  height: 40px;
+}
+
+#earth {
+  background-color: green;
+  border: 6px groove;
+  width: 60px;
+  height: 40px;
 }
