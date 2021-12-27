@@ -12,10 +12,19 @@
       <h1>MEME GENERATOR</h1>
     </header>
     <main>
-      <input type="text" id="text-input" />
-      <div id="meme-image-container">
-        <p id="meme-text">Texto</p>
-      </div>
+      <section>
+        <span>Texto: </span>
+        <input id="text-input" type="text" />
+      </section>
+
+      <section>
+        <span>Arquivo: </span>
+        <input type="file" id="meme-insert" />
+      </section>
+
+      <section id="meme-image-container">
+        <span id="meme-text"></span>
+      </section>
     </main>
     <script src="script.js"></script>
   </body>
